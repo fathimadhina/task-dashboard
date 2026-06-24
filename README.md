@@ -79,8 +79,6 @@ public/
 
 ## Screenshot
 
-Add your project screenshot here after uploading it to the repository.
-
 ### Login Page
 ![Login Page](loginPage.png)
 
