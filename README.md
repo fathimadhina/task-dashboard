@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Task Management Dashboard
 
-## Getting Started
+A modern Task Management Dashboard built using Next.js, TypeScript, Tailwind CSS, and shadcn/ui. The application allows users to manage daily tasks efficiently with task creation, status updates, searching, filtering, and sorting functionalities.
 
-First, run the development server:
+## Features
 
-```bash
+* Login Page with localStorage Authentication
+* Create New Tasks
+* Delete Tasks
+* Dynamic Status Management
+* Real-time Search Functionality
+* Filter Tasks by Status
+* Ascending & Descending Due Date Sorting
+* Responsive User Interface
+
+## Tech Stack
+
+* Next.js
+* TypeScript
+* React
+* Tailwind CSS
+* shadcn/ui
+* React Hooks
+
+## Installation
+
+bash
+git clone https://github.com/fathimadhina/task-dashboard.git
+
+cd task-dashboard
+
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+text
+app/
+├── dashboard/
+├── login/
+├── page.tsx
 
-## Learn More
+components/
+├── ui/
 
-To learn more about Next.js, take a look at the following resources:
+data/
+├── tasks.ts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+lib/
+├── utils.ts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+public/
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Functionalities
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Authentication
+
+* Mock login system using localStorage.
+* Redirects authenticated users to the dashboard.
+
+### Task Management
+
+* Add new tasks.
+* Delete existing tasks.
+* Update task status dynamically.
+
+### Search & Filter
+
+* Search tasks by title.
+* Filter tasks by status (Todo, In Progress, Completed).
+
+### Sorting
+
+* Sort tasks by due date in ascending order.
+* Sort tasks by due date in descending order.
+
+## Screenshot
+
+Add your project screenshot here after uploading it to the repository.
+
+md
+![Task Dashboard](screenshot.png)
+
+
+## Future Improvements
+
+* Edit Existing Tasks
+* Dark Mode Support
+* Backend API Integration
+* Database Connectivity
+* User Authentication with JWT
+
+## Developer
+
+Fathima P
+
+MERN Stack Developer Trainee
+
+GitHub: https://github.com/fathimadhina
