@@ -81,8 +81,20 @@ public/
 
 Add your project screenshot here after uploading it to the repository.
 
-md
-![Task Dashboard](screenshot.png)
+### Login Page
+![Login Page](loginPage.png)
+
+### Dashboard
+![Dashboard](dashboard.png)
+
+### Add Task
+![Add Task](add-task.png)
+
+### Search Functionality
+![Search Functionality](search-functionality.png)
+
+### Task Filter
+![Task Filter](filter.png)
 
 
 ## Future Improvements
